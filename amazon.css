@@ -263,14 +263,15 @@ p {
 }
 
 .viewbutton {
-    background: none;
+    border-radius: 12px;
+    background:whitesmoke;
     outline: none;
     font-weight: 200;
-    letter-spacing: 5px;
-    border: 1px solid #780303;
+    letter-spacing: 7px;
+    border: 2px solid #780303;
     color: #f4c1c1;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 11px;
 }
 
 .viewbutton:hover {
@@ -336,6 +337,8 @@ p {
 .link {
     text-decoration: none;
     color: #070100;
+    font-size: larger;  
+    font-weight:800;
 }
 
 .footer {
