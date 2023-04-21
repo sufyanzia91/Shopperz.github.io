@@ -467,7 +467,7 @@ flex-wrap: wrap;
     .header {
         display: grid;
         grid-template-columns: auto;
-        margin-left: 2rem;
+        margin-left: 0rem;
         height:60px;
     }
     .project{
@@ -530,13 +530,14 @@ flex-wrap: wrap;
         position: relative;
         width: 100%;
         background: linear-gradient(to right, #ace760, #4b82f8);
-        min-height: 100px;
+        min-height: 200px;
         min-width:30px;
         padding: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        
       }
       
       .social-icon,
