@@ -509,9 +509,9 @@ flex-wrap: wrap;
     }
     #portfolio {
         width: 100%;
-        min-height: 200vh;
+        min-height: 100vh;
         background: rgb(252, 250, 250);
-        position: relative;
+        position: center;
         display: grid;
         grid-template-columns: repeat(1, minmax(100px, 1fr));
         grid-template-rows: 1fr 1fr 1fr 1fr;
