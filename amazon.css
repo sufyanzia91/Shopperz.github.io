@@ -467,8 +467,8 @@ flex-wrap: wrap;
     .header {
         display: grid;
         grid-template-columns: auto;
-        margin-left: 4rem;
-        height:30px;
+        margin-left: 2rem;
+        height:60px;
     }
     .project{
       width:100%;
