@@ -541,7 +541,7 @@ flex-wrap: wrap;
     }
     #portfolio {
         width: 100%;
-        min-height: 200vh;
+        min-height: 100vh;
         background: rgb(252, 250, 250);
         position: relative;
         display: grid;
