@@ -469,14 +469,27 @@ flex-wrap: wrap;
         grid-template-columns: auto;
         margin-left: 0rem;
         height:60px;
+        background: whitesmoke;
+        bottom: 2px black;
     }
     .project{
       width:100%;
       height:100vh;
+      
+    }
+    .viewbutton{
+      height:80px;
+      width:160px;
+
     }
     .project_image{
       align-items: center;
-      margin-left: 60px;
+      margin-left: 100px;
+    }
+    .link{
+      font-size: larger;
+      font-weight:bolder;
+      color: #780303;
     }
     .navi {
         position: fixed;
@@ -497,10 +510,14 @@ flex-wrap: wrap;
         left: 0;
         transition: 0.6s ease;
     }
+    #but1{
+      display:none;
+    }
     .nav-item {
         margin: 10px;
         margin-left: -10%;
         display: grid;
+        font-size: xx-large;
         transition: 0.3s ease;
     }
     .hamburger {
@@ -510,12 +527,23 @@ flex-wrap: wrap;
         z-index: 9;
         font-weight: bolder;
         margin-left: 10px;
+        height: 20px;
+        width:30px;
+    }
+    .uni{
+      align-content: center;
+      background: white;
+      font-style: italic;
+      font-weight:lighter;
+    }
+    h1{
+      margin-left: 150px;
     }
     #portfolio {
         width: 100%;
-        min-height: 100vh;
+        min-height: 200vh;
         background: rgb(252, 250, 250);
-        position: center;
+        position: relative;
         display: grid;
         grid-template-columns: repeat(1, minmax(100px, 1fr));
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -534,14 +562,13 @@ flex-wrap: wrap;
         position: relative;
         width: 100%;
         background: linear-gradient(to right, #ace760, #4b82f8);
-        min-height: 200px;
+        min-height: 100px;
         min-width:30px;
         padding: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
       }
       
       .social-icon,
