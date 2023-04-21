@@ -468,7 +468,7 @@ flex-wrap: wrap;
         display: grid;
         grid-template-columns: auto;
         margin-left: 0rem;
-        height:60px;
+        height:100px;
         background: whitesmoke;
         bottom: 2px black;
     }
