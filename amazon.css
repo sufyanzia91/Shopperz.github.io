@@ -474,6 +474,10 @@ flex-wrap: wrap;
       width:100%;
       height:100vh;
     }
+    .project_image{
+      align-items: center;
+      margin-left: 60px;
+    }
     .navi {
         position: fixed;
         display: inline-block;
