@@ -499,7 +499,7 @@ flex-wrap: wrap;
     }
     .nav-item {
         margin: 10px;
-        margin-left: -25%;
+        margin-left: -10%;
         display: grid;
         transition: 0.3s ease;
     }
